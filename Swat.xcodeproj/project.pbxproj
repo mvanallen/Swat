@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C0736261EA76A2800341CAB /* String+Pairings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0736251EA76A2800341CAB /* String+Pairings.swift */; };
+		4C0736291EA7AEDE00341CAB /* SwatCompiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0736281EA7AEDE00341CAB /* SwatCompiler.swift */; };
+		4C07362B1EA7AF1200341CAB /* SwatArtifact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07362A1EA7AF1200341CAB /* SwatArtifact.swift */; };
+		4C07362D1EA7AF2500341CAB /* SwatTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07362C1EA7AF2500341CAB /* SwatTemplate.swift */; };
+		4C07362F1EA7AFD100341CAB /* SwatGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07362E1EA7AFD100341CAB /* SwatGenerator.swift */; };
+		4C3A08B81E93C3FA0092C60B /* ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A08B71E93C3FA0092C60B /* ObjC.m */; };
+		4C3A08BA1E93D37A0092C60B /* Shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A08B91E93D37A0092C60B /* Shell.swift */; };
+		4C4EC5F81E8E529C00542FA9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4EC5F71E8E529C00542FA9 /* main.swift */; };
+		4C4EC5FF1E8E52FB00542FA9 /* Swat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4EC5FE1E8E52FB00542FA9 /* Swat.swift */; };
+		4C9340901E93A0F700354DBD /* Bundle+Temporary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C93408F1E93A0F700354DBD /* Bundle+Temporary.swift */; };
+		4C9340921E93B26F00354DBD /* String+Pasteboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9340911E93B26F00354DBD /* String+Pasteboard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4C4EC5F21E8E529C00542FA9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4C0736251EA76A2800341CAB /* String+Pairings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Pairings.swift"; sourceTree = "<group>"; };
+		4C0736281EA7AEDE00341CAB /* SwatCompiler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwatCompiler.swift; sourceTree = "<group>"; };
+		4C07362A1EA7AF1200341CAB /* SwatArtifact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwatArtifact.swift; sourceTree = "<group>"; };
+		4C07362C1EA7AF2500341CAB /* SwatTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwatTemplate.swift; sourceTree = "<group>"; };
+		4C07362E1EA7AFD100341CAB /* SwatGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwatGenerator.swift; sourceTree = "<group>"; };
+		4C3A08B51E93C3FA0092C60B /* Swat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swat-Bridging-Header.h"; sourceTree = "<group>"; };
+		4C3A08B61E93C3FA0092C60B /* ObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjC.h; sourceTree = "<group>"; };
+		4C3A08B71E93C3FA0092C60B /* ObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjC.m; sourceTree = "<group>"; };
+		4C3A08B91E93D37A0092C60B /* Shell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shell.swift; sourceTree = "<group>"; };
+		4C4EC5F41E8E529C00542FA9 /* Swat */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swat; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4EC5F71E8E529C00542FA9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4C4EC5FE1E8E52FB00542FA9 /* Swat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swat.swift; sourceTree = "<group>"; };
+		4C4EC6011E8E53D700542FA9 /* 00_SimpleFunction.swat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 00_SimpleFunction.swat; sourceTree = "<group>"; };
+		4C4EC6021E8E620B00542FA9 /* XX_Design.swat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XX_Design.swat; sourceTree = "<group>"; };
+		4C4EC6031E8E8AD800542FA9 /* 01_ComplexFunction.swat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 01_ComplexFunction.swat; sourceTree = "<group>"; };
+		4C4EC6041E8E9CA800542FA9 /* 10_NystromAST.swat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 10_NystromAST.swat; sourceTree = "<group>"; };
+		4C4EC6051E8EA19300542FA9 /* 11_NystromAST.swat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 11_NystromAST.swat; sourceTree = "<group>"; };
+		4C4EC6061E8EA3AB00542FA9 /* 20_CombineLatest.swat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 20_CombineLatest.swat; sourceTree = "<group>"; };
+		4C93408F1E93A0F700354DBD /* Bundle+Temporary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Temporary.swift"; sourceTree = "<group>"; };
+		4C9340911E93B26F00354DBD /* String+Pasteboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Pasteboard.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C4EC5F11E8E529C00542FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C0736271EA7ACA900341CAB /* Units */ = {
+			isa = PBXGroup;
+			children = (
+				4C3A08B61E93C3FA0092C60B /* ObjC.h */,
+				4C3A08B71E93C3FA0092C60B /* ObjC.m */,
+				4C3A08B91E93D37A0092C60B /* Shell.swift */,
+				4C0736251EA76A2800341CAB /* String+Pairings.swift */,
+				4C9340911E93B26F00354DBD /* String+Pasteboard.swift */,
+				4C93408F1E93A0F700354DBD /* Bundle+Temporary.swift */,
+			);
+			name = Units;
+			sourceTree = "<group>";
+		};
+		4C4EC5EB1E8E529C00542FA9 = {
+			isa = PBXGroup;
+			children = (
+				4C4EC6001E8E53D700542FA9 /* Templates */,
+				4C4EC5F61E8E529C00542FA9 /* Swat */,
+				4C4EC5F51E8E529C00542FA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C4EC5F51E8E529C00542FA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C4EC5F41E8E529C00542FA9 /* Swat */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C4EC5F61E8E529C00542FA9 /* Swat */ = {
+			isa = PBXGroup;
+			children = (
+				4C3A08B51E93C3FA0092C60B /* Swat-Bridging-Header.h */,
+				4C4EC5FE1E8E52FB00542FA9 /* Swat.swift */,
+				4C07362C1EA7AF2500341CAB /* SwatTemplate.swift */,
+				4C07362A1EA7AF1200341CAB /* SwatArtifact.swift */,
+				4C0736281EA7AEDE00341CAB /* SwatCompiler.swift */,
+				4C07362E1EA7AFD100341CAB /* SwatGenerator.swift */,
+				4C4EC5F71E8E529C00542FA9 /* main.swift */,
+				4C0736271EA7ACA900341CAB /* Units */,
+			);
+			path = Swat;
+			sourceTree = "<group>";
+		};
+		4C4EC6001E8E53D700542FA9 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				4C4EC6021E8E620B00542FA9 /* XX_Design.swat */,
+				4C4EC6011E8E53D700542FA9 /* 00_SimpleFunction.swat */,
+				4C4EC6031E8E8AD800542FA9 /* 01_ComplexFunction.swat */,
+				4C4EC6041E8E9CA800542FA9 /* 10_NystromAST.swat */,
+				4C4EC6051E8EA19300542FA9 /* 11_NystromAST.swat */,
+				4C4EC6061E8EA3AB00542FA9 /* 20_CombineLatest.swat */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C4EC5F31E8E529C00542FA9 /* Swat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C4EC5FB1E8E529C00542FA9 /* Build configuration list for PBXNativeTarget "Swat" */;
+			buildPhases = (
+				4C4EC5F01E8E529C00542FA9 /* Sources */,
+				4C4EC5F11E8E529C00542FA9 /* Frameworks */,
+				4C4EC5F21E8E529C00542FA9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swat;
+			productName = Swat;
+			productReference = 4C4EC5F41E8E529C00542FA9 /* Swat */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C4EC5EC1E8E529C00542FA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "ReactiveCode Studios";
+				TargetAttributes = {
+					4C4EC5F31E8E529C00542FA9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 66M4S89E3T;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4C4EC5EF1E8E529C00542FA9 /* Build configuration list for PBXProject "Swat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C4EC5EB1E8E529C00542FA9;
+			productRefGroup = 4C4EC5F51E8E529C00542FA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C4EC5F31E8E529C00542FA9 /* Swat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C4EC5F01E8E529C00542FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C07362D1EA7AF2500341CAB /* SwatTemplate.swift in Sources */,
+				4C3A08BA1E93D37A0092C60B /* Shell.swift in Sources */,
+				4C3A08B81E93C3FA0092C60B /* ObjC.m in Sources */,
+				4C9340901E93A0F700354DBD /* Bundle+Temporary.swift in Sources */,
+				4C0736261EA76A2800341CAB /* String+Pairings.swift in Sources */,
+				4C07362F1EA7AFD100341CAB /* SwatGenerator.swift in Sources */,
+				4C9340921E93B26F00354DBD /* String+Pasteboard.swift in Sources */,
+				4C4EC5FF1E8E52FB00542FA9 /* Swat.swift in Sources */,
+				4C07362B1EA7AF1200341CAB /* SwatArtifact.swift in Sources */,
+				4C4EC5F81E8E529C00542FA9 /* main.swift in Sources */,
+				4C0736291EA7AEDE00341CAB /* SwatCompiler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C4EC5F91E8E529C00542FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C4EC5FA1E8E529C00542FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4C4EC5FC1E8E529C00542FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 66M4S89E3T;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swat/Swat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4C4EC5FD1E8E529C00542FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 66M4S89E3T;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swat/Swat-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C4EC5EF1E8E529C00542FA9 /* Build configuration list for PBXProject "Swat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4EC5F91E8E529C00542FA9 /* Debug */,
+				4C4EC5FA1E8E529C00542FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C4EC5FB1E8E529C00542FA9 /* Build configuration list for PBXNativeTarget "Swat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C4EC5FC1E8E529C00542FA9 /* Debug */,
+				4C4EC5FD1E8E529C00542FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C4EC5EC1E8E529C00542FA9 /* Project object */;
+}
