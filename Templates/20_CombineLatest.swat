@@ -1,0 +1,23 @@
+//
+//  CombineLatest.swift
+//  RxSwift
+//
+//  Created by Krunoslav Zaher on 4/22/15.
+//  Copyright (c) 2015 Krunoslav Zaher. All rights reserved.
+//
+
+import Foundation
+
+{* for i in 2...(CTX["iterations"] as! Int) { *}
+
+// {(i)}
+
+public func combineLatestOrDie<{( (1...i).map { "E\($0)" }.joined(separator: ", ") )}, R>
+    ({( (1...i).map { "source\($0): Observable<E\($0)>" }.joined(separator: ", ") )}, resultSelector: ({( (1...i).map { "E\($0)" }.joined(separator: ", ") )}) -> Result<R>)
+        -> Observable<R> {
+    return CombineLatest{(i)}(
+        {( (1...i).map { "source\($0): source\($0)" }.joined(separator: ", ") )},
+        resultSelector: resultSelector
+    )
+}
+{* } *}

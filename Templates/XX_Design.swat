@@ -1,0 +1,52 @@
+// Template: 00_SimpleFunction.swat
+
+
+{% for i in [1...3] { print("  Number \(i)") } %}
+
+[% for i in [1...3] { print("  Number \(i)") } %]
+
+<% for i in [1...3] { print("  Number \(i)") } %>
+
+
+{% for i in 1...3 { %}
+	Number {{ i }}
+{% } %}
+
+[% for i in 1...3 { %]
+	Number [[ i ]]
+[% } %]
+
+<% for i in 1...3 { %>
+	Number << i >>
+<% } %>
+
+{| for i in 1...3 { |}
+	Number {( i )}
+{| } |}
+
+{* for i in 1...3 { *}
+	Number {( i )}
+{* } *}
+
+{* for i in 1...3 { *}
+	Number {| i |}
+{* } *}
+
+
+{# for i in 1...3 { #}
+	Number {( i )}
+{# } #}
+
+
+{% for i in 1...3 { %}
+	Number {( String(i/2)+"*2" )}
+{% } %}
+
+{| for i in 1...3 { |}
+	Number {( String(i/2)+"*2" )}
+{| } |}
+
+{% for i in 1...3 { %}
+	Number {| String(i/2)+"*2" |}
+{% } %}
+
